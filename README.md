@@ -1,4 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -16,21 +15,40 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Description
+Vizzle is a modern SaaS platform that empowers content creators, marketers, and brands to effortlessly compress videos, resize images for any social media format, and automatically pick the most engaging moments from videos using AI.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Key Features:
+🎥 Video Compression:
+Reduce video file sizes without noticeable quality loss, optimized for faster uploads, sharing, and streaming.
 
-## Learn More
+🖼️ Image Resizing for Social Media:
+Instantly resize images for popular social formats like:
 
-To learn more about Next.js, take a look at the following resources:
+LinkedIn Cover
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Twitter Post
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Facebook Cover
 
-## Deploy on Vercel
+Instagram Stories
+and more.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🤖 AI-Powered Highlight Clipper:
+Upload a video, and let AI automatically detect & extract the most engaging, high-impact moments — perfect for Reels, Shorts, Stories, or video previews.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+☁️ Cloud Storage Integration:
+Seamlessly upload, manage, and deliver media through Cloudinary, with built-in transformations, optimizations, and CDN delivery.
+
+🔒 Secure Authentication:
+Robust, modern authentication and session management powered by Clerk.
+
+🗄️ Modern, Scalable Database:
+Built on Neon (serverless Postgres) with Prisma ORM for type-safe, scalable, and performant data management.
+
+⚡ Blazing Fast Frontend:
+Built using Next.js and Tailwind CSS, with DaisyUI for beautifully styled components and rapid UI prototyping.
+
+📝 Form Validation:
+Fully validated forms using Zod + React Hook Form, ensuring reliable, typed client-side and server-side validation.
+
